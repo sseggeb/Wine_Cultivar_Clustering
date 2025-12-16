@@ -2,7 +2,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project explores the application of **unsupervised learning** (K-Means Clustering) to the Wine Recognition Dataset to determine if chemical analysis can successfully group wines according to their true cultivar origin. A **supervised learning** model (K-Nearest Neighbors, KNN) is also implemented as a comparative baseline to validate the structure and separability of the data.
 
@@ -11,7 +11,7 @@ The primary objective is to group the wines into clusters that accurately align 
 
 ---
 
-## 📊 Dataset: Wine Recognition Dataset
+## Dataset: Wine Recognition Dataset
 
 The analysis uses the **Wine Recognition Dataset** (UCI ID 109).
 
@@ -27,7 +27,7 @@ The dataset contains the results of a chemical analysis of wines grown in the sa
 
 ---
 
-## 🧠 Methodology and Models
+## Methodology and Models
 
 ### 1. Data Preprocessing
 * **Inspection:** The data was clean with no missing values (NaNs).
@@ -43,12 +43,12 @@ The dataset contains the results of a chemical analysis of wines grown in the sa
 * KNN was used as a classification model on the scaled training data to establish a performance baseline for a supervised model.
 * **Result:** The KNN classifier achieved **near-perfect predictive performance** (Accuracy $\approx 0.98$).
 
-### 🌟 Conclusion
+### Conclusion
 The analysis successfully demonstrated that the chemical composition of the wine is highly predictive of its cultivar. The unsupervised K-Means model was remarkably effective, accurately inferring the three cultivar groupings. The high ARI/AMI scores for K-Means and the near-perfect accuracy for KNN confirm that the **Standardization** preprocessing step was crucial and that the structure of the Wine Recognition Dataset is inherently clean and highly separable.
 
 ---
 
-## 🛠️ Installation and Requirements
+## Installation and Requirements
 
 To run this notebook locally, you need a Python environment with the following packages installed:
 
